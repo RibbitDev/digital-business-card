@@ -9,6 +9,11 @@
     background: rgb(255, 254, 252);
 }
 
+.main-text {
+    color: rgb(68, 61, 49);
+    font-family: 'Geist', Georgia, 'Times New Roman', Times, serif;
+    padding: 1em 2.7em;
+}
 
 /* ===================
    Header and Branding
@@ -45,7 +50,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 18px 40px; */
+    padding: 18px 40px;
     background-color: rgba(255, 254, 252);
     position: fixed;
     top: 0;
@@ -63,8 +68,8 @@ header {
 }
 
 .top-logo {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: auto;
     display: block;
 }
 
@@ -81,12 +86,13 @@ header {
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
+    /* color: #ff772e; */
     color: #2e8eff;
 }
 
